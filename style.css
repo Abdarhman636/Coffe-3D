@@ -81,11 +81,9 @@ a {
 
 .heroimgs {
   position: relative;
-  /* height: 289px; */
   order: 1;
   flex: 1;
-  height: 70%;
-  margin-top: 60px;
+  height: 75%;
   width: 100%;
 }
 
