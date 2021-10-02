@@ -115,24 +115,21 @@ a {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 600px) {
   .hero {
     grid-template-rows: repeat(2, 50%);
     grid-template-columns: 1fr;
   }
-  .heroimgs {
-    order: 1;
-    height: 80%;
-  }
   .home__data {
-    order: 2;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   .home__title {
     font-size: 10vh;
     line-height: 100px;
   }
+}
 
+@media screen and (max-width: 750px) {
   .closebtn {
     display: inline-block;
     position: absolute;
@@ -140,6 +137,10 @@ a {
     right: 10%;
     font-size: 25px;
     color: white;
+  }
+
+  .heroimgs {
+    display: none;
   }
 
   .togglebtn {
